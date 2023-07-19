@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./script.js"></script>
+    <title>Previsão do tempo</title>
+  </head>
+  <body>
+    <div class="container">
+      <input class="input-city" placeholder="Digite o nome da cidade" />
+      <button class="btn-busca" onclick="clickButton()">
+        <img
+          class="icon-busca"
+          src="https://cdn-icons-png.flaticon.com/128/6328/6328608.png"
+          alt=""
+        />
+      </button>
+
+      <div class="middle-box">
+        <h2 class="city">Fortaleza</h2>
+
+        <p class="temperatura">26ºC</p>
+
+        <div class="little-box">
+          <img
+            class="icon-temp"
+            src="https://openweathermap.org/img/wn/04n.png"
+            alt=""
+          />
+          <p class="parcial-tempo">Nublado</p>
+        </div>
+
+        <p class="umidade">umidade: 70%</p>
+      </div>
+    </div>
+  </body>
+</html>
